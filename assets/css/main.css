@@ -330,6 +330,7 @@ height: auto;
 .hvrbox .hvrbox-layer_bottom {
 display: block;
 }
+
 .hvrbox .hvrbox-layer_top {
 opacity: 0;
 position: absolute;
@@ -353,9 +354,10 @@ width: auto;
 height: auto;
 }
 .hvrbox:hover .hvrbox-layer_top,
-.hvrbox.active .hvrbox-layer_top {
+.hvrbox.active {
 opacity: 1;
 }
+
 .hvrbox .hvrbox-text {
 text-align: center;
 font-size: inherit;
